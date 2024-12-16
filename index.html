@@ -85,6 +85,13 @@
                     </a>
                   </li>
                 </ul>
+
+              <div class="flex items-center justify-center">
+                <button class="button bg-slate-400 dark:bg-gray-900 text-white dark:text-gray-300" id="darkModeToggle">
+                  <span id="icon">🌙</span>
+                </button>
+              </div>
+
               </nav>
             </div>
 
@@ -237,5 +244,19 @@
         </div>
       </section>
     </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const icon = document.getElementById('icon');
+    let dark = true;
+
+    darkModeToggle.addEventListener('click', () => {
+      dark = !dark;
+      document.documentElement.classList.toggle('dark');
+      icon.textContent = dark ? '🌙' : '☀️';
+    });
+  });
+  </script>
   </body>
 </html>
