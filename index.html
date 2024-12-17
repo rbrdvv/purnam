@@ -38,85 +38,57 @@
                     <a
                       class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                       href="index.html"
+                      >Home</a
                     >
-                      Home
-                    </a>
                   </li>
-
                   <li>
                     <a
                       class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
-                      href="pages\vision_and_mission.html"
+                      href="pages/vision_and_mission.html"
+                      >Vision and Mission</a
                     >
-                      Vision and Mission
-                    </a>
                   </li>
-
                   <li>
                     <a
                       class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                       href="pages/objectives.html"
+                      >Objectives</a
                     >
-                      Objectives
-                    </a>
                   </li>
-
                   <li>
                     <a
                       class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                       href="pages/authors_page.html"
+                      >Author's Page</a
                     >
-                      Author's Page
-                    </a>
                   </li>
-
                   <li>
                     <a
                       class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                       href="pages/indexing_and_recognition.html"
+                      >Indexing and Recognition</a
                     >
-                      Indexing and Recognition
-                    </a>
                   </li>
-
                   <li>
                     <a
                       class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
                       href="pages/editorial_team.html"
+                      >Editorial Team</a
                     >
-                      Editorial Team
-                    </a>
                   </li>
                 </ul>
               </nav>
             </div>
 
             <div class="flex items-center gap-4">
-              <!-- <div class="sm:flex sm:gap-4">
-                <a
-                  class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow dark:hover:bg-teal-500"
-                  href="#"
-                >
-                  Login
-                </a>
-
-                <div class="hidden sm:flex">
-                  <a
-                    class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
-                    href="#"
-                  >
-                    Register
-                  </a>
-                </div>
-              </div> -->
-
               <div class="block md:hidden">
                 <button
+                  id="menu-toggle"
                   class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="size-5"
+                    class="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -133,8 +105,55 @@
             </div>
           </div>
         </div>
-      </header>
 
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="hidden md:hidden" id="mobile-menu">
+          <ul class="flex flex-col items-start pl-5 gap-6 text-sm">
+            <li>
+              <a
+                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                href="pages/vision_and_mission.html"
+                >Vision and Mission</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                href="pages/objectives.html"
+                >Objectives</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                href="pages/authors_page.html"
+                >Author's Page</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                href="pages/indexing_and_recognition.html"
+                >Indexing and Recognition</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                href="pages/editorial_team.html"
+                >Editorial Team</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
       <section class="bg-gray-50 dark:bg-gray-900">
         <div class="p-8 md:p-12 lg:px-16 lg:py-24">
           <div class="mx-auto max-w-lg text-center">
@@ -144,7 +163,7 @@
               || पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते ||
             </p>
             <h2
-              class="text-2xl font-bold text-gray-900 md:text-3xl dark:text-white"
+              class="text-2xl mt-10 mb-5 font-bold text-gray-900 md:text-3xl dark:text-white"
             >
               Pūrṇam
             </h2>
@@ -189,7 +208,7 @@
             </form>
           </div> -->
 
-          <div class="mx-auto max-w-3xl sm:my-8 text-gray-900 dark:text-white">
+          <div class="mx-auto max-w-3xl sm:mb-8 mt-4 text-gray-900 dark:text-white">
             <p class="text-center">
               Pūrṇam is a peer reviewed, diamond access, paying,
               multi-disciplinary, multi-lingual Journal of Indian Knowledge
@@ -263,5 +282,16 @@
         </div>
       </section>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const menuToggle = document.getElementById("menu-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuToggle.addEventListener("click", () => {
+          mobileMenu.classList.toggle("hidden");
+        });
+      });
+    </script>
   </body>
 </html>
