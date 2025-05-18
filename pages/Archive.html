@@ -134,11 +134,16 @@
                <dd class="text-gray-900 sm:col-span-3">
                 *  Salutations to You! Oh Vakrathunda!! Hari Chandra B P et al, Pūrṇam, Vol.1, No.1, pp1-3:
                  <a href="https://docs.google.com/forms/d/1EwKIp_iZrh2c5p4HU-VxvECzLSbiJzez_TVCCaDoZ98/edit?pli=1"
-                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  target="_blank" 
+                   rel="noopener noreferrer" 
+                   class="text-purple-900 text-lg underline"
                     id="downloadLink"
                   >Request download</a>  [Download Count: <span id="clickCountDisplay">0</span>.]
                 </dd>   </div>
               </dl>
+            <script>
+  document.getElementById("clickCountDisplay").textContent = downloadClickCount;
+</script>
               
               <dl class="divide-y divide-gray-600 text-lg">
                <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
