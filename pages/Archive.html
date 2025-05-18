@@ -121,7 +121,7 @@
         rel="noopener noreferrer" 
         class="text-purple-900 text-lg underline"
         onclick="incrementDownloadCount('count1')"
-      >Request download</a>  <span class="text-purple-900">[Download Count: <span id="count1">0</span>.]</span>
+      >Request download</a>  <span class="text-orange-600">[Download Count: <span id="count1">0</span>.]</span>
     </dd>
   </div>
 </dl>
@@ -138,38 +138,18 @@
                    rel="noopener noreferrer" 
                    class="text-purple-900 text-lg underline"
                     onclick="incrementDownloadCount('count2')"
-                  >Request download</a> <span class="text-purple-900">[Download Count: <span id="count2">0</span>.]</span>
+                  >Request download</a> <span class="text-orange-600">[Download Count: <span id="count2">0</span>.]</span>
                 </dd>   </div>
-              </dl>
-          <script>
-  // Load stored counts on page load
-  window.onload = function () {
-    const ids = ['count1', 'count2'];
-    ids.forEach(id => {
-      const saved = localStorage.getItem(id);
-      if (saved !== null) {
-        document.getElementById(id).textContent = saved;
-      }
-    });
-  };
-
-  // Increment and save count
-  function incrementDownloadCount(id) {
-    const countSpan = document.getElementById(id);
-    let currentCount = parseInt(countSpan.textContent) || 0;
-    currentCount++;
-    countSpan.textContent = currentCount;
-    localStorage.setItem(id, currentCount);
-  }
-</script>
-              
+              </dl>       
               <dl class="divide-y divide-gray-600 text-lg">
                <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
                <dd class="text-gray-900 sm:col-span-3">
                 *  Nurturing IKS,  D K Hari et al, Pūrṇam, Vol.1, No.1, pp4-6:
-                 <a href="https://forms.gle/PMTXmKz3NAxu35yYA"
-                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
-                  >Request download [Download Count: <span id="clickCountDisplay">0</span>.]</a>
+                 <a href="https://docs.google.com/forms/d/10TmR14bb20rI_qKn4nDFgCubqPFXqZ2z91Y0zYww50g/edit"
+                  target="_blank" rel="noopener noreferrer"
+                   class="text-purple-900 text-lg underline"
+                   onclick="incrementDownloadCount('count3')"
+                  >Request download <span class="text-orange-600">[Download Count: <span id="count3">0</span>.]</span>
                 </dd>  </div>
               </dl>
 
@@ -242,7 +222,27 @@
                   >Request download</a>
                 </dd>   </div>
               </dl>          
-            
+               <script>
+  // Load stored counts on page load
+  window.onload = function () {
+    const ids = ['count1', 'count2'];
+    ids.forEach(id => {
+      const saved = localStorage.getItem(id);
+      if (saved !== null) {
+        document.getElementById(id).textContent = saved;
+      }
+    });
+  };
+
+  // Increment and save count
+  function incrementDownloadCount(id) {
+    const countSpan = document.getElementById(id);
+    let currentCount = parseInt(countSpan.textContent) || 0;
+    currentCount++;
+    countSpan.textContent = currentCount;
+    localStorage.setItem(id, currentCount);
+  }
+</script>
             
             </div>
 
