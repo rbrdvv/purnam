@@ -113,14 +113,19 @@
 
               
               <dl class="divide-y divide-gray-600 text-lg">
-               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
-               <dd class="text-gray-900 sm:col-span-3">
-                # Download Full Journal - Purnam Journal, Vol.1, No.1,Jan-Dec 2025:
-                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLH1l1K2ZYwAN5OJBWQQP9vCF8xoDfLqDM-_DHdpoVgQV1Bw/viewform?usp=sharing&ouid=108045606042012497990"
-                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
-                  >Click to download</a>
-                </dd>  </div>
-              </dl>
+  <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4">
+    <dd class="text-gray-900 sm:col-span-3">
+      # Download Full Journal - Purnam Journal, Vol.1, No.1, Jan-Dec 2025:
+      <a 
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfLH1l1K2ZYwAN5OJBWQQP9vCF8xoDfLqDM-_DHdpoVgQV1Bw/viewform?usp=sharing&ouid=108045606042012497990"
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="text-purple-900 text-lg underline"
+        id="downloadLink"
+      >Click to download</a>
+    </dd>
+  </div>
+</dl>
 
               <dl class="divide-y divide-gray-600 text-lg">
                <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
@@ -228,6 +233,14 @@
           mobileMenu.classList.toggle('hidden');
         });
       });
+      let downloadClickCount = localStorage.getItem("downloadClicks") || 0;
+
+  document.getElementById("downloadLink").addEventListener("click", function () {
+    downloadClickCount++;
+    localStorage.setItem("downloadClicks", downloadClickCount);
+    console.log("Download link clicked", downloadClickCount, "times.");
+  });
+
     </script>
   </body>
 </html>
