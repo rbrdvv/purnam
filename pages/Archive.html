@@ -126,7 +126,11 @@
     </dd>
   </div>
 </dl>
+<p>Download link clicked <span id="clickCountDisplay">0</span> times.</p>
 
+<script>
+  document.getElementById("clickCountDisplay").textContent = downloadClickCount;
+</script>
               <dl class="divide-y divide-gray-600 text-lg">
                <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
                <dd class="text-gray-900 sm:col-span-3">
