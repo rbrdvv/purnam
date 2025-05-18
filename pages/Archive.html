@@ -237,14 +237,19 @@
           mobileMenu.classList.toggle('hidden');
         });
       });
-      let downloadClickCount = localStorage.getItem("downloadClicks") || 0;
-
-  document.getElementById("downloadLink").addEventListener("click", function () {
-    downloadClickCount++;
-    localStorage.setItem("downloadClicks", downloadClickCount);
-    console.log("Download link clicked", downloadClickCount, "times.");
-  });
-
     </script>
+
+    <script>
+    // Initialize the count from localStorage
+    let downloadClickCount = parseInt(localStorage.getItem("downloadClicks")) || 0;
+    document.getElementById("clickCountDisplay").textContent = downloadClickCount;
+
+    // Add event listener to the link
+    document.getElementById("downloadLink").addEventListener("click", function () {
+      downloadClickCount++;
+      localStorage.setItem("downloadClicks", downloadClickCount);
+      document.getElementById("clickCountDisplay").textContent = downloadClickCount;
+    });
+  </script>
   </body>
 </html>
