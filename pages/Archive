@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cor
+morant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Vision and Mission | Purnam</title>
   </head>
@@ -45,7 +46,7 @@
                   <li>
                     <a class="text-purple-900 transition hover:text-purple-900/75 font-bold" href="editorial_team.html">Editorial Team</a>
                   </li>
-                  <li>
+                   <li>
                     <a class="text-purple-900 transition hover:text-purple-900/75 font-bold" href="Archive.html">Archive</a>
                   </li>
                 </ul>
@@ -86,25 +87,136 @@
               <a class="text-purple-900 transition hover:text-purple-900/75 text-lg font-bold" href="editorial_team.html">Editorial Team</a>
             </li>
             <li>
-               <a class="text-purple-900 transition hover:text-purple-900/75 text-lg font-bold" href="editorial_team.html">Archive</a>
-             </li>
+              <a class="text-purple-900 transition hover:text-purple-900/75 text-lg font-bold" href="Archive.html">Archive</a>
+            </li>
           </ul>
         </div>
       </header>
-      
-      <section >
-        <div class="p-8 sm:p-12 lg:px-16 md:py-24 text-lg">
+
+ <div class="p-8 sm:p-12 lg:px-16 md:py-24 text-lg">
           <div class="mx-auto max-w-2xl text-center mt-14 mb-10 ">
             <h2
               class="text-3xl font-bold text-pink-700  "
             >
-              Vol.1 No.1 Hard copy Released 
+              Vol.1 No.1 January - June 2025
             </h2>
-            <p class="text-gray-900 sm:mt-4 sm:block ">
-              Papers will be updated soon
-            </p>
+         
           </div>
+         
         </div>
+ 
+      <section >
+
+            <div class="flow-root my-10">
+              <h3 class="text-2xl font-bold text-pink-700 pl-3" >
+              Download Papers
+              </h3>
+
+              
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam Journal Vol.1 No.1 Full Journal:
+                 <a href="https://drive.google.com/file/d/1wSpNoV0qS5czbYe0rVqzRfM_TQ9qdMP6/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>  </div>
+              </dl>
+
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam_Vol.1_No.1_pp1-3 Hari Chandra B P et al:
+                 <a href="https://drive.google.com/file/d/1uS0Qd6Zxh_oj2IgIuJ56YK_-WAQtF5lg/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>   </div>
+              </dl>
+              
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam_Vol.1_No.1_pp4-6 D K Hari et al:
+                 <a href="https://drive.google.com/file/d/1r47Y47XgHbG3aAqYX2fUSHN7z4XP18KA/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>  </div>
+              </dl>
+
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam_Vol.1_No.1_pp7-10 Basudeba Mishra:
+                 <a href="https://drive.google.com/file/d/1DTVhf9KFQtK3XCbUZpyLfb2LUGtxym5z/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>   </div>
+              </dl>
+
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam_Vol.1_No.1_pp11-18 Abhishek Arya et al:
+                 <a href="https://drive.google.com/file/d/1aEdoxI0VRHtHMa7N_8WB5QHhnlLhfoxA/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>  </div>
+              </dl>
+
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam_Vol.1_No.1_pp19-23 Ananda Balayogi Bhavanani:
+                 <a href="https://drive.google.com/file/d/1RN8NIZbGrDGvWQWKNLK32zxXHRDgzUnI/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>   </div>
+              </dl>
+
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam_Vol.1_No.1_pp24-28 Kanya Kumari:
+                 <a href="https://drive.google.com/file/d/1Iyat9o-PG865p5B-k4k3AA65Q-kJ7Aeq/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>  </div>
+              </dl>
+
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam_Vol.1_No.1_pp29-38 S Saloi et al:
+                 <a href="https://drive.google.com/file/d/1nlEZFvHqeONKyv4qJgEd6mB0tRau0ZkL/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>   </div>
+              </dl>
+            
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam_Vol.1_No.1_pp39-42 Suharini Sulgante et al:
+                 <a href="https://drive.google.com/file/d/1XjhH4-PSfrQyl9nS8YpqokEb57F7Y5Nf/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>   </div>
+              </dl>
+
+              <dl class="divide-y divide-gray-600 text-lg">
+               <div class="grid grid-cols-1 gap-1 p-3 even:bg-yellow-200 bg-yellow-200/50 sm:grid-cols-3 sm:gap-4" >
+               <dd class="text-gray-900 sm:col-span-3">
+                Download Purnam_Vol.1_No.1_pp43-48 Kishore Kumar:
+                 <a href="https://drive.google.com/file/d/1hORUgCTcnDG_ESPCZlHd3z9Y7QPJ2Uet/view?usp=drive_link"
+                  target="_blank" rel="noopener noreferrer" class="text-purple-900 text-lg underline"
+                  >Click to download</a>
+                </dd>   </div>
+              </dl>          
+            
+            
+            </div>
+
+      
       </section>
     </div>
 
